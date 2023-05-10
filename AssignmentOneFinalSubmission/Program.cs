@@ -64,7 +64,7 @@ class QueenslandCompetitionApp
         //Console.WriteLine(SeniorTicketSum);
 
         // For currency format specifier, we use => double.ToString("C3") method
-        Console.WriteLine(TotalRevenue.ToString("C3"));
+        Console.WriteLine("Total revenue made is: {0}.",TotalRevenue.ToString("C3"));
         Console.WriteLine("\n");
 
         // Task 3 

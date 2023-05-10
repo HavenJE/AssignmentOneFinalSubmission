@@ -12,6 +12,7 @@
 
 // 4. In other cases, the app should display “The competition should have more space for kids!”.
 
+using System;
 class QueenslandCompetitionApp
 {
     static void Main()
@@ -64,6 +65,7 @@ class QueenslandCompetitionApp
 
         // For currency format specifier, we use => double.ToString("C3") method
         Console.WriteLine(TotalRevenue.ToString("C3"));
+        Console.WriteLine("\n");
 
         // Task 3 
         // 1st objective
